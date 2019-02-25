@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginBottom="64sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_alignParentStart="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <RelativeLayout
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="50sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:minHeight="270sp"
+                    android:contentDescription="@string/cloud_dialog"
+                    android:paddingStart="25sp"
+                    android:paddingTop="15sp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dialog_cloud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/dialogText"
+                    android:layout_marginEnd="50sp"
+                    android:textSize="16.5sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/blue_grey_900"
+                    android:text="@string/hi_developer"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+            <ImageView
+                android:contentDescription="@string/hi_android"
+                android:layout_alignParentBottom="true"
+                android:scaleType="fitEnd"
+                android:src="@drawable/hi_android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64sp">
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/editText"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            android:hint="@string/send_to_messages"
+            android:inputType="text"
+            android:layout_weight="1"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/textCounter"
+            android:gravity="center|bottom"
+            android:textStyle="bold"
+            android:textColor="@color/blue_grey_900"
+            android:textSize="12.5sp"
+            android:text="@string/_0_15"
+            android:layout_weight="0.15"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/sendBtn"
+            android:text="@string/send"
+            android:layout_weight="0.25"
+            android:layout_width="0sp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</RelativeLayout>

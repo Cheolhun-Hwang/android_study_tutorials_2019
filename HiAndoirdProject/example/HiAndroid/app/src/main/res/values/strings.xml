@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HiAndroid</string>
+    <string name="send_to_messages">send to messages.</string>
+    <string name="send">Send</string>
+    <string name="hi_developer">Hi! Developer!</string>
+    <string name="hi_android">hi_android</string>
+    <string name="_0_15">0/15</string>
+    <string name="cloud_dialog">cloud_dialog</string>
+</resources>

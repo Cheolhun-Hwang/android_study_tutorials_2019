@@ -1,0 +1,14 @@
+<resources>
+    <!-- default -->
+    <string name="app_name">App 이름 지정</string>
+
+    <!-- User -->
+    <string name="send_to_messages">Edit Text Hint</string>
+
+    <!-- 시간상 수정하지 않았습니다. -->
+    <string name="send">Send</string>
+    <string name="hi_developer">Hi! Developer!</string>
+    <string name="hi_android">hi_android</string>
+    <string name="_0_15">0/15</string>
+    <string name="cloud_dialog">cloud_dialog</string>
+</resources>
