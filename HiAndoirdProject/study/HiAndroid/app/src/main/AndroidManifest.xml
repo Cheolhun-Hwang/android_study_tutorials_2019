@@ -12,9 +12,11 @@
 
         <!--
          MainActivity 의 Actionbar 가 SoftKeyboard 에 의해 사라지지 않도록 합니다. ex) adjustResize
-         MainActivity 를 세로모드로 강제합니다.
+         MainActivity 를 세모로드로 강제합니다.
          -->
         <activity
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
             android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
