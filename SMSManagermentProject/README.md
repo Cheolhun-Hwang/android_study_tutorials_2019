@@ -4,6 +4,7 @@
 - Study : 주석처리 
 
 ## App Image
+![](https://github.com/chulhun-hwang/android_study_tutorials_2019/blob/master/SMSManagermentProject/images/andorid_28_NoVersionX_receivedSMS.PNG)
 
 ## Study for
 - BroadcastReciever를 이용하여 SMS 수신 정보를 받는다.
